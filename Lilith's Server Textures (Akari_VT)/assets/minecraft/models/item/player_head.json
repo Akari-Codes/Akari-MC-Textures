@@ -1,0 +1,59 @@
+{
+  "parent": "item/template_skull",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 11130032
+      },
+      "model": "waystones_rp:item/waystone_andesite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130033
+      },
+      "model": "waystones_rp:item/waystone_sand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130034
+      },
+      "model": "waystones_rp:item/waystone_nether"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130035
+      },
+      "model": "waystones_rp:item/waystone_deepslate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130036
+      },
+      "model": "waystones_rp:item/waystone_mossy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130037
+      },
+      "model": "waystones_rp:item/waystone_copper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130038
+      },
+      "model": "waystones_rp:item/waystone_prismarine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130039
+      },
+      "model": "waystones_rp:item/waystone_tuff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130040
+      },
+      "model": "item/player_head"
+    }
+  ]
+}

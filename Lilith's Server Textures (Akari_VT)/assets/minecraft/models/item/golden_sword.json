@@ -1,0 +1,36 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/golden_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1981820},
+            "model": "item/weapons/golden_dagger"
+        },
+        {
+            "predicate": {"custom_model_data": 1981821},
+            "model": "item/weapons/golden_mace"
+        },
+        {
+            "predicate": {"custom_model_data": 1981822},
+            "model": "item/weapons/golden_rapier"
+        },
+        {
+            "predicate": {"custom_model_data": 1981825},
+            "model": "item/weapons/golden_warhammer"
+        },
+        {
+            "predicate": {"custom_model_data": 1981826},
+            "model": "item/weapons/golden_spear"
+        },
+        {
+            "predicate": {"custom_model_data": 1981827},
+            "model": "item/weapons/golden_greataxe"
+        },
+        {
+            "predicate": {"custom_model_data": 1981840},
+            "model": "item/weapons/golden_knuckles"
+        }
+    ]
+}

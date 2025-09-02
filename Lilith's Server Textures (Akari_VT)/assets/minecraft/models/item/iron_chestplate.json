@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/iron_chestplate"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 3510001},
+            "model": "item/gui/skillicon_heavyarmor"
+        }
+    ]
+}

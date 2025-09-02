@@ -1,0 +1,328 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/enchanted_book"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1182920},
+            "model": "item/misc/potion_belt"
+        },
+        {
+            "predicate": {"custom_model_data": 7780900},
+            "model": "item/trinkets/rough_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7780901},
+            "model": "item/trinkets/rough_gold_necklace_amulet"
+        },
+        {
+            "predicate": {"custom_model_data": 7780902},
+            "model": "item/trinkets/rough_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7780903},
+            "model": "item/trinkets/rough_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7780910},
+            "model": "item/trinkets/gold_necklace_amulet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781100},
+            "model": "item/trinkets/gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781101},
+            "model": "item/trinkets/ruby_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781102},
+            "model": "item/trinkets/emerald_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781103},
+            "model": "item/trinkets/opal_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781104},
+            "model": "item/trinkets/sapphire_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781105},
+            "model": "item/trinkets/topaz_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781106},
+            "model": "item/trinkets/peridot_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781107},
+            "model": "item/trinkets/diamond_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781108},
+            "model": "item/trinkets/amethyst_gold_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781200},
+            "model": "item/trinkets/gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781201},
+            "model": "item/trinkets/ruby_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781202},
+            "model": "item/trinkets/emerald_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781203},
+            "model": "item/trinkets/opal_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781204},
+            "model": "item/trinkets/sapphire_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781205},
+            "model": "item/trinkets/topaz_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781206},
+            "model": "item/trinkets/peridot_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781207},
+            "model": "item/trinkets/diamond_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781208},
+            "model": "item/trinkets/amethyst_gold_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 7781300},
+            "model": "item/trinkets/gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781301},
+            "model": "item/trinkets/ruby_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781302},
+            "model": "item/trinkets/emerald_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781303},
+            "model": "item/trinkets/opal_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781304},
+            "model": "item/trinkets/sapphire_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781305},
+            "model": "item/trinkets/topaz_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781306},
+            "model": "item/trinkets/peridot_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781307},
+            "model": "item/trinkets/diamond_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781308},
+            "model": "item/trinkets/amethyst_gold_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781320},
+            "model": "item/trinkets/gold_armring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781330},
+            "model": "item/trinkets/silver_armring"
+        },
+        {
+            "predicate": {"custom_model_data": 7781400},
+            "model": "item/trinkets/gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781401},
+            "model": "item/trinkets/ruby_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781402},
+            "model": "item/trinkets/emerald_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781403},
+            "model": "item/trinkets/opal_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781404},
+            "model": "item/trinkets/sapphire_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781405},
+            "model": "item/trinkets/topaz_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781406},
+            "model": "item/trinkets/peridot_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781407},
+            "model": "item/trinkets/diamond_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781408},
+            "model": "item/trinkets/amethyst_gold_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 7781500},
+            "model": "item/trinkets/trinket_armband_bezoar"
+        },
+        {
+            "predicate": {"custom_model_data": 7781501},
+            "model": "item/trinkets/trinket_armband_purity"
+        },
+        {
+            "predicate": {"custom_model_data": 7781502},
+            "model": "item/trinkets/trinket_armband_force"
+        },
+        {
+            "predicate": {"custom_model_data": 7781503},
+            "model": "item/trinkets/trinket_armband_titans_glove"
+        },
+        {
+            "predicate": {"custom_model_data": 7781504},
+            "model": "item/trinkets/trinket_armband_precision"
+        },
+        {
+            "predicate": {"custom_model_data": 7781505},
+            "model": "item/trinkets/trinket_armband_deathbringer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781506},
+            "model": "item/trinkets/trinket_armband_regeneration"
+        },
+        {
+            "predicate": {"custom_model_data": 7781507},
+            "model": "item/trinkets/trinket_armband_rebirth"
+        },
+        {
+            "predicate": {"custom_model_data": 7781508},
+            "model": "item/trinkets/trinket_armband_bandaid"
+        },
+        {
+            "predicate": {"custom_model_data": 7781509},
+            "model": "item/trinkets/trinket_armband_transfusion"
+        },
+        {
+            "predicate": {"custom_model_data": 7781510},
+            "model": "item/trinkets/trinket_armband_armored_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 7781511},
+            "model": "item/trinkets/trinket_armband_juggernaut"
+        },
+        {
+            "predicate": {"custom_model_data": 7781520},
+            "model": "item/trinkets/trinket_necklace_cross"
+        },
+        {
+            "predicate": {"custom_model_data": 7781521},
+            "model": "item/trinkets/trinket_necklace_divine_blessing"
+        },
+        {
+            "predicate": {"custom_model_data": 7781522},
+            "model": "item/trinkets/trinket_necklace_magic_quiver"
+        },
+        {
+            "predicate": {"custom_model_data": 7781523},
+            "model": "item/trinkets/trinket_necklace_artemis"
+        },
+        {
+            "predicate": {"custom_model_data": 7781524},
+            "model": "item/trinkets/trinket_necklace_mania"
+        },
+        {
+            "predicate": {"custom_model_data": 7781525},
+            "model": "item/trinkets/trinket_necklace_furyforged"
+        },
+        {
+            "predicate": {"custom_model_data": 7781526},
+            "model": "item/trinkets/trinket_necklace_avenger"
+        },
+        {
+            "predicate": {"custom_model_data": 7781527},
+            "model": "item/trinkets/trinket_necklace_kratos"
+        },
+        {
+            "predicate": {"custom_model_data": 7781528},
+            "model": "item/trinkets/trinket_necklace_adrenaline"
+        },
+        {
+            "predicate": {"custom_model_data": 7781529},
+            "model": "item/trinkets/trinket_necklace_hermes"
+        },
+        {
+            "predicate": {"custom_model_data": 7781530},
+            "model": "item/trinkets/trinket_necklace_vigor"
+        },
+        {
+            "predicate": {"custom_model_data": 7781531},
+            "model": "item/trinkets/trinket_necklace_erinle"
+        },
+        {
+            "predicate": {"custom_model_data": 7781540},
+            "model": "item/trinkets/trinket_ring_deflection"
+        },
+        {
+            "predicate": {"custom_model_data": 7781541},
+            "model": "item/trinkets/trinket_ring_athena"
+        },
+        {
+            "predicate": {"custom_model_data": 7781542},
+            "model": "item/trinkets/trinket_ring_obsidian"
+        },
+        {
+            "predicate": {"custom_model_data": 7781543},
+            "model": "item/trinkets/trinket_ring_narya"
+        },
+        {
+            "predicate": {"custom_model_data": 7781544},
+            "model": "item/trinkets/trinket_ring_protection"
+        },
+        {
+            "predicate": {"custom_model_data": 7781545},
+            "model": "item/trinkets/trinket_ring_primordial"
+        },
+        {
+            "predicate": {"custom_model_data": 7781546},
+            "model": "item/trinkets/trinket_ring_reach"
+        },
+        {
+            "predicate": {"custom_model_data": 7781547},
+            "model": "item/trinkets/trinket_ring_gungnir"
+        },
+        {
+            "predicate": {"custom_model_data": 7781548},
+            "model": "item/trinkets/trinket_ring_shattering"
+        },
+        {
+            "predicate": {"custom_model_data": 7781549},
+            "model": "item/trinkets/trinket_ring_paladins_bane"
+        },
+        {
+            "predicate": {"custom_model_data": 7781550},
+            "model": "item/trinkets/trinket_ring_warding"
+        },
+        {
+            "predicate": {"custom_model_data": 7781551},
+            "model": "item/trinkets/trinket_ring_magnus"
+        }
+    ]
+}

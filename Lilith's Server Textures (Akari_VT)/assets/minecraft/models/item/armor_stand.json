@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/armor_stand"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 3510001},
+            "model": "item/gui/skillicon_power"
+        }
+    ]
+}

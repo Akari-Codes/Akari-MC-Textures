@@ -1,0 +1,28 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/snowball"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 9928310},
+            "model": "item/misc/empty_vial"
+        },
+        {
+            "predicate": {"custom_model_data": 9928311},
+            "model": "item/misc/antiheal_vial"
+        },
+        {
+            "predicate": {"custom_model_data": 9928312},
+            "model": "item/misc/poison_vial"
+        },
+        {
+            "predicate": {"custom_model_data": 9928313},
+            "model": "item/misc/hurt_vial"
+        },
+        {
+            "predicate": {"custom_model_data": 9928314},
+            "model": "item/misc/holy_water_vial"
+        }
+    ]
+}

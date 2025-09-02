@@ -1,0 +1,44 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rotten_flesh"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 5829310},
+            "model": "item/gui/icon_ring"
+        },
+        {
+            "predicate": {"custom_model_data": 5829311},
+            "model": "item/gui/icon_necklace"
+        },
+        {
+            "predicate": {"custom_model_data": 5829312},
+            "model": "item/gui/icon_bracer"
+        },
+        {
+            "predicate": {"custom_model_data": 5829313},
+            "model": "item/gui/icon_belt"
+        },
+        {
+            "predicate": {"custom_model_data": 5829314},
+            "model": "item/gui/icon_mask"
+        },
+        {
+            "predicate": {"custom_model_data": 5829315},
+            "model": "item/gui/icon_pin"
+        },
+        {
+            "predicate": {"custom_model_data": 5829316},
+            "model": "item/gui/icon_circlet"
+        },
+        {
+            "predicate": {"custom_model_data": 5829317},
+            "model": "item/gui/icon_accessory"
+        },
+        {
+            "predicate": {"custom_model_data": 5829320},
+            "model": "item/gui/icon_locked_trinket_slot"
+        }
+    ]
+}

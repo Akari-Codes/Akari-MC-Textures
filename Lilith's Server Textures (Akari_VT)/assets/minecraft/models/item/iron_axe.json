@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 3510001},
+            "model": "item/gui/skillicon_heavyweapons"
+        },
+        {
+            "predicate": {"custom_model_data": 3510002},
+            "model": "item/gui/skillicon_landscaping"
+        },
+        {
+            "predicate": {"custom_model_data": 9918290},
+            "model": "item/tools/copper_axe"
+        }
+    ]
+}

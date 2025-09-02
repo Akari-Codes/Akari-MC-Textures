@@ -1,0 +1,14 @@
+{
+    
+    "straightahead": {
+             "sounds":[
+                 {
+                     "name": "spellbound_weapons:straightahead",
+                     "pitch": 1.0,
+                     "weight": 1,
+    "volume": 0.8
+                 } 
+             ]
+        }
+    }
+    

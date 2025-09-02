@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/gunpowder"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 11130060
+      },
+      "model": "waystones_rp:custom_gui/waystone/button/previous_page"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11130061
+      },
+      "model": "waystones_rp:custom_gui/waystone/button/next_page"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "waystones_rp:custom_gui/waystone/button/filler"
+    }
+}

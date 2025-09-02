@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_hoe"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1829130},
+            "model": "item/gui/button_select_tool"
+        },
+        {
+            "predicate": {"custom_model_data": 3510001},
+            "model": "item/gui/skillicon_farming"
+        },
+        {
+            "predicate": {"custom_model_data": 9918290},
+            "model": "item/tools/copper_hoe"
+        }
+    ]
+}

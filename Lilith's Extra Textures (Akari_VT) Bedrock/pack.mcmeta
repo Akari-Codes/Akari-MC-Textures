@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "supported_formats": [
+            15,
+            100
+        ],
+        "description": "Bedrock Extra Resources by Lilth (Akari_VT / TitanGaming9232)"
+    }
+}

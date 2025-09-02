@@ -1,0 +1,139 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/arrow"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1829130},
+            "model": "item/gui/button_nextpage"
+        },
+        {
+            "predicate": {"custom_model_data": 1829131},
+            "model": "item/gui/button_prevpage"
+        },
+        {
+            "predicate": {"custom_model_data": 3511001},
+            "model": "item/gui/skilltree_nw"
+        },
+        {
+            "predicate": {"custom_model_data": 3511002},
+            "model": "item/gui/skilltree_n"
+        },
+        {
+            "predicate": {"custom_model_data": 3511003},
+            "model": "item/gui/skilltree_ne"
+        },
+        {
+            "predicate": {"custom_model_data": 3511004},
+            "model": "item/gui/skilltree_e"
+        },
+        {
+            "predicate": {"custom_model_data": 3511005},
+            "model": "item/gui/skilltree_se"
+        },
+        {
+            "predicate": {"custom_model_data": 3511006},
+            "model": "item/gui/skilltree_s"
+        },
+        {
+            "predicate": {"custom_model_data": 3511007},
+            "model": "item/gui/skilltree_sw"
+        },
+        {
+            "predicate": {"custom_model_data": 3511008},
+            "model": "item/gui/skilltree_w"
+        },{
+            "predicate": {"custom_model_data": 8778210},
+            "model": "item/arrows/arrow_wood"
+        },
+        {
+            "predicate": {"custom_model_data": 8778211},
+            "model": "item/arrows/arrow_wood"
+        },
+        {
+            "predicate": {"custom_model_data": 8778212},
+            "model": "item/arrows/arrow_flint"
+        },
+        {
+            "predicate": {"custom_model_data": 8778213},
+            "model": "item/arrows/arrow_flint"
+        },
+        {
+            "predicate": {"custom_model_data": 8778214},
+            "model": "item/arrows/arrow_stone"
+        },
+        {
+            "predicate": {"custom_model_data": 8778215},
+            "model": "item/arrows/arrow_stone"
+        },
+        {
+            "predicate": {"custom_model_data": 8778216},
+            "model": "item/arrows/arrow_copper"
+        },
+        {
+            "predicate": {"custom_model_data": 8778217},
+            "model": "item/arrows/arrow_copper"
+        },
+        {
+            "predicate": {"custom_model_data": 8778218},
+            "model": "item/arrows/arrow_gold"
+        },
+        {
+            "predicate": {"custom_model_data": 8778219},
+            "model": "item/arrows/arrow_gold"
+        },
+        {
+            "predicate": {"custom_model_data": 8778220},
+            "model": "item/arrows/arrow_iron"
+        },
+        {
+            "predicate": {"custom_model_data": 8778221},
+            "model": "item/arrows/arrow_iron"
+        },
+        {
+            "predicate": {"custom_model_data": 8778222},
+            "model": "item/arrows/arrow_carbon"
+        },
+        {
+            "predicate": {"custom_model_data": 8778223},
+            "model": "item/arrows/arrow_carbon"
+        },
+        {
+            "predicate": {"custom_model_data": 8778224},
+            "model": "item/arrows/arrow_diamond"
+        },
+        {
+            "predicate": {"custom_model_data": 8778225},
+            "model": "item/arrows/arrow_diamond"
+        },
+        {
+            "predicate": {"custom_model_data": 8778226},
+            "model": "item/arrows/arrow_ender"
+        },
+        {
+            "predicate": {"custom_model_data": 8778227},
+            "model": "item/arrows/arrow_ender"
+        },
+        {
+            "predicate": {"custom_model_data": 8778228},
+            "model": "item/arrows/arrow_netherite"
+        },
+        {
+            "predicate": {"custom_model_data": 8778229},
+            "model": "item/arrows/arrow_incendiary"
+        },
+        {
+            "predicate": {"custom_model_data": 8778230},
+            "model": "item/arrows/arrow_explosive"
+        },
+        {
+            "predicate": {"custom_model_data": 8778231},
+            "model": "item/arrows/arrow_lightning"
+        },
+        {
+            "predicate": {"custom_model_data": 8778232},
+            "model": "item/arrows/arrow_unholy"
+        }
+    ]
+}

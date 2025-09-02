@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/brick"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 9182610},
+            "model": "item/materials/ring_mold"
+        },
+        {
+            "predicate": {"custom_model_data": 9182611},
+            "model": "item/materials/necklace_amulet_mold"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/shears"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 8177280},
+            "model": "item/tools/netherite_shears"
+        }
+    ]
+}

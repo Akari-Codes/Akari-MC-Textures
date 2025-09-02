@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/honeycomb"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 9827320},
+            "model": "item/materials/melted_wax"
+        }
+    ]
+}

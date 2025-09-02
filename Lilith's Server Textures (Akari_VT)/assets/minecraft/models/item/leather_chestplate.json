@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/leather_chestplate",
+        "layer1": "item/leather_chestplate_overlay"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 3510001},
+            "model": "item/gui/skillicon_lightarmor"
+        },
+        {
+            "predicate": {"custom_model_data": 9918290},
+            "model": "item/armor/copper_chestplate"
+        }
+    ]
+}

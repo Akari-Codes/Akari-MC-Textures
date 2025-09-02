@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/light_gray_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 8892300},
+            "model": "item/materials/alchemical_powder"
+        },
+        {
+            "predicate": {"custom_model_data": 8892301},
+            "model": "item/materials/polishing_stone"
+        }
+    ]
+}

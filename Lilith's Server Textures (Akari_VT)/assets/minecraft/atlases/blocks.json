@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "custom_gui",
+            "prefix": "custom_gui/"
+        }
+    ]
+}

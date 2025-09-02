@@ -1,0 +1,108 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/gray_dye"
+    },
+    "overrides": [
+        {
+            "predicate": {"custom_model_data": 1172700},
+            "model": "item/gui/connection_pieces/locked_direct_vertical"
+        },
+        {
+            "predicate": {"custom_model_data": 1172701},
+            "model": "item/gui/connection_pieces/locked_direct_horizontal"
+        },
+        {
+            "predicate": {"custom_model_data": 1172702},
+            "model": "item/gui/connection_pieces/locked_direct_corner_botlft"
+        },
+        {
+            "predicate": {"custom_model_data": 1172703},
+            "model": "item/gui/connection_pieces/locked_direct_corner_toplft"
+        },
+        {
+            "predicate": {"custom_model_data": 1172704},
+            "model": "item/gui/connection_pieces/locked_direct_corner_botrgt"
+        },
+        {
+            "predicate": {"custom_model_data": 1172705},
+            "model": "item/gui/connection_pieces/locked_direct_corner_toprgt"
+        },
+        {
+            "predicate": {"custom_model_data": 1172706},
+            "model": "item/gui/connection_pieces/locked_continuous_vertical"
+        },
+        {
+            "predicate": {"custom_model_data": 1172707},
+            "model": "item/gui/connection_pieces/locked_continuous_horizontal"
+        },
+        {
+            "predicate": {"custom_model_data": 1172708},
+            "model": "item/gui/connection_pieces/locked_endpoint_horiz_right"
+        },
+        {
+            "predicate": {"custom_model_data": 1172709},
+            "model": "item/gui/connection_pieces/locked_endpoint_horiz_left"
+        },
+        {
+            "predicate": {"custom_model_data": 1172710},
+            "model": "item/gui/connection_pieces/locked_endpoint_verti_top"
+        },
+        {
+            "predicate": {"custom_model_data": 1172711},
+            "model": "item/gui/connection_pieces/locked_endpoint_verti_bottom"
+        },
+        {
+            "predicate": {"custom_model_data": 1172712},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_botlft_side"
+        },
+        {
+            "predicate": {"custom_model_data": 1172713},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_toplft_side"
+        },
+        {
+            "predicate": {"custom_model_data": 1172714},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_botrgt_side"
+        },
+        {
+            "predicate": {"custom_model_data": 1172715},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_toprgt_side"
+        },
+        {
+            "predicate": {"custom_model_data": 1172716},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_botlft_ends"
+        },
+        {
+            "predicate": {"custom_model_data": 1172717},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_toplft_ends"
+        },
+        {
+            "predicate": {"custom_model_data": 1172718},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_botrgt_ends"
+        },
+        {
+            "predicate": {"custom_model_data": 1172719},
+            "model": "item/gui/connection_pieces/locked_endpoint_corner_toprgt_ends"
+        },
+        {
+            "predicate": {"custom_model_data": 1172720},
+            "model": "item/gui/connection_pieces/locked_continuous_corner_botlft"
+        },
+        {
+            "predicate": {"custom_model_data": 1172721},
+            "model": "item/gui/connection_pieces/locked_continuous_corner_toplft"
+        },
+        {
+            "predicate": {"custom_model_data": 1172722},
+            "model": "item/gui/connection_pieces/locked_continuous_corner_botrgt"
+        },
+        {
+            "predicate": {"custom_model_data": 1172723},
+            "model": "item/gui/connection_pieces/locked_continuous_corner_toprgt"
+        },
+        {
+            "predicate": {"custom_model_data": 8892300},
+            "model": "item/materials/sharpening_stone"
+        }
+    ]
+}
