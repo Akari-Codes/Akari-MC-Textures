@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "more_armor_trims:item/wraith_armor_trim_smithing_template"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pommel:is_held": 1.0
+      },
+      "model": "more_armor_trims:item/wraith_armor_trim_smithing_template3d"
+    },
+    {
+      "predicate": {
+        "pommel:is_fixed": 1.0
+      },
+      "model": "more_armor_trims:item/wraith_armor_trim_smithing_template3d"
+    },
+    {
+      "predicate": {
+        "pommel:is_head": 1.0
+      },
+      "model": "more_armor_trims:item/wraith_armor_trim_smithing_template3d"
+    }
+  ]
+}

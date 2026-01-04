@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:ocean",
+    "minecraft:deep_ocean"
+  ],
+  "sky_color": 4888548,
+  "fog_color": 4755919,
+  "water_color": 3828440
+}

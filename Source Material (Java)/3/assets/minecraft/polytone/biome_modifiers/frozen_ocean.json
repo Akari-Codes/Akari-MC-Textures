@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean"
+  ],
+  "sky_color": 6784740,
+  "fog_color": 5608663,
+  "water_color": 4025818
+}

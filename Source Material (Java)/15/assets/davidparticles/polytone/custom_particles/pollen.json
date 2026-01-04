@@ -1,0 +1,28 @@
+{
+        "initializer":{
+          "lifetime": "160",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "roll": "0.75",
+          "custom": "gaussian()"
+        },
+        "ticker": {
+            "dx": "(CUSTOM*0.035) * sin((0.005 * AGE)) - ((PLAYER_X - POS_X) / (DISTANCE_SQUARED + 1)) * min(max(2 - sqrt(DISTANCE_SQUARED), 0), 1) * 0.15",
+            "dy": "(CUSTOM*0.01) * cos((0.05 * AGE))",
+            "dz": "(CUSTOM*0.035) * cos((0.005 * AGE))- ((PLAYER_Z - POS_Z) / (DISTANCE_SQUARED + 1)) * min(max(2 - sqrt(DISTANCE_SQUARED), 0), 1) * 0.15",
+            "size": "(CUSTOM*0.1 + 0.1) * min(max(AGE / 8, 0), 1) * min(max((LIFETIME - AGE) / 8, 0), 1)",
+            "roll": "ROLL*1.01",
+            "remove_condition": "sqrt(DISTANCE_SQUARED) > 15"
+        },
+        "random_sprite": true,
+        "liquid_affinity": "non_liquids",
+        "render_type": "translucent",
+        "has_physics": true,
+        "kill_on_contact": false,
+        "exclusion_radius": 1,
+        "hitbox_size": 0.25,
+        "kill_when_still": false
+}

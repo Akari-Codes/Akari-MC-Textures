@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top_inner_faces",
+  "textures": {
+    "bottom": "minecraft:block/spawner_top",
+    "side": "minecraft:block/spawner_side",
+    "top": "minecraft:block/spawner_top"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle"
+  ],
+  "sky_color": 4171909,
+  "fog_color": 11333556,
+  "water_color": 2202039
+}

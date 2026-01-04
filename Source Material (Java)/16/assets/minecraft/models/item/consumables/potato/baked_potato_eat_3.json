@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/baked_potato_hand"
+	},
+	"elements": [
+		{
+			"from": [5.5, 0, 4.5],
+			"to": [8.5, 4, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 0, 4.5]},
+			"faces": {
+				"north": {"uv": [12, 0, 15, 4], "texture": "#1"},
+				"east": {"uv": [9, 11, 6, 15], "texture": "#1"},
+				"south": {"uv": [5, 11, 8, 15], "texture": "#1"},
+				"west": {"uv": [7, 7, 10, 11], "texture": "#1"},
+				"up": {"uv": [5, 7, 2, 4], "texture": "#1"},
+				"down": {"uv": [10, 3, 5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"from": [5.9, 2.5, 6.6375],
+			"to": [7.9, 4.5, 7.475],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [6.9, 3.5, 8.6375]},
+			"faces": {
+				"north": {"uv": [4, 11, 2, 13], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [2, 11, 4, 11.8125], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [2, 11, 4, 13], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [2, 12.1875, 4, 13], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [1, 11, 1.8125, 13], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [3.1875, 11, 4, 13], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.75, 1.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.75, 1.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"firstperson_righthand": {
+			"rotation": [-82.09, -65.08, -72.05],
+			"translation": [1.5, 9, 0.75],
+			"scale": [0.7, 0.72, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-82.09, -65.08, -72.05],
+			"translation": [1.5, 9, 0.75],
+			"scale": [0.7, 0.72, 0.6]
+		}
+	}
+}

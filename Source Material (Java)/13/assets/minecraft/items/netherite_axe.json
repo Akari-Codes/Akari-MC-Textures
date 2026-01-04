@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_axe"
+        },
+        "entries": [
+            {
+                "threshold": 1981900,
+                "model": {
+                    "type": "model",
+                    "model": "item/tools/royal_netherite_axe"
+                }
+            }
+        ]
+    }
+}

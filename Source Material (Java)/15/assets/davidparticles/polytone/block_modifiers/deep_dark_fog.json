@@ -1,0 +1,22 @@
+{
+   "targets": ["minecraft:air"],
+   "particle_emitters": [
+    {
+       "particle": "davidparticles:deep_dark_fog",
+       "chance": "0.1",
+       "x": "25 * cos((10 * TIME))", 
+       "z": "25 * cos((10 * TIME))",
+       "y": "0",
+       "dy": "0.001 + rand()*0.001",
+       "biomes": ["minecraft:deep_dark"]
+     },
+     {
+       "particle": "davidparticles:sculk",
+       "chance": "0.001",
+       "x": "rand() - 5", 
+       "z": "rand()",
+       "y": "0",
+       "biomes": ["minecraft:deep_dark", "minecraft:soul_sand_valley"]
+     }
+     ]
+}

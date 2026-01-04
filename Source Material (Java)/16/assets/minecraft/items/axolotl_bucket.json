@@ -1,0 +1,107 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:axolotl/variant",
+          "cases": [
+            {
+              "when": "lucy",
+              "model": {
+                "type": "model",
+                "model": "minecraft:item/axolotl_bucket"
+              }
+            },
+            {
+              "when": "wild",
+              "model": {
+                "type": "model",
+                "model": "minecraft:item/axolotl_bucket_wild"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "model",
+                "model": "minecraft:item/axolotl_bucket_gold"
+              }
+            },
+            {
+              "when": "cyan",
+              "model": {
+                "type": "model",
+                "model": "minecraft:item/axolotl_bucket_cyan"
+              }
+            },
+            {
+              "when": "blue",
+              "model": {
+                "type": "model",
+                "model": "minecraft:item/axolotl_bucket_blue"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "minecraft:item/axolotl_bucket"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:axolotl/variant",
+      "cases": [
+        {
+          "when": "lucy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket_hand"
+          }
+        },
+        {
+          "when": "wild",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket_hand_wild"
+          }
+        },
+        {
+          "when": "gold",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket_hand_gold"
+          }
+        },
+        {
+          "when": "cyan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket_hand_cyan"
+          }
+        },
+        {
+          "when": "blue",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket_hand_blue"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/axolotl_bucket_hand"
+      }
+    }
+  }
+}

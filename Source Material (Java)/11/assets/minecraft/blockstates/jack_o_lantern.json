@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "facing=east": [
+      { "model": "block/jack_o_lantern", "y": 90, "weight": 50  },
+      { "model": "block/jack_o_lantern_happy", "y": 90, "weight": 50  },
+      { "model": "block/jack_o_lantern_silly", "y": 90, "weight": 7  },
+      { "model": "block/jack_o_lantern_sad", "y": 90, "weight": 50  }
+    ],
+
+    "facing=north": [
+      { "model": "block/jack_o_lantern", "weight": 50  },
+      { "model": "block/jack_o_lantern_happy", "weight": 50  },
+      { "model": "block/jack_o_lantern_silly", "weight": 7  },
+      { "model": "block/jack_o_lantern_sad", "weight": 50  }
+    ],
+
+    "facing=south": [
+      { "model": "block/jack_o_lantern", "y": 180, "weight": 50 },
+      { "model": "block/jack_o_lantern_happy", "y": 180, "weight": 50  },
+      { "model": "block/jack_o_lantern_silly", "y": 180, "weight": 7  },
+      { "model": "block/jack_o_lantern_sad", "y": 180, "weight": 50  }
+    ],
+
+    "facing=west": [
+      { "model": "block/jack_o_lantern", "y": 270, "weight": 50  },
+      { "model": "block/jack_o_lantern_happy", "y": 270, "weight": 50  },
+      { "model": "block/jack_o_lantern_silly", "y": 270, "weight": 7  },
+      { "model": "block/jack_o_lantern_sad", "y": 270, "weight": 50  }
+    ]
+  }
+}

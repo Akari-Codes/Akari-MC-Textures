@@ -1,0 +1,16 @@
+{
+   "targets": ["minecraft:sand", "minecraft:red_sand"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:tumbleweed",
+       "chance": "RAIN * 0.001",
+       "x": "rand()*(-5) - 5", 
+       "z": "rand() + cos(TIME)+0.5",
+       "y": "1.5",
+       "biomes": ["minecraft:desert",
+                  "minecraft:badlands",
+                  "minecraft:eroded_badlands",
+                  "minecraft:wooded_badlands"]
+     }
+     ]
+}

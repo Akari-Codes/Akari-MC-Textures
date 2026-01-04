@@ -1,0 +1,10 @@
+﻿{
+  "pack": {
+    "pack_format": 44,
+    "description": "Ben's Bundles",
+	"supported_formats": {
+      "min_inclusive": 44,
+      "max_inclusive": 80
+    }
+  }
+}

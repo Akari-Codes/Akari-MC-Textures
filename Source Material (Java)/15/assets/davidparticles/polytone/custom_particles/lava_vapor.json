@@ -1,0 +1,22 @@
+{
+        "initializer":{
+          "lifetime": "80",
+          "alpha": "0",
+          "size": "rand()*0.3 + 0.05",
+          "roll": "rand()"
+        },
+        "ticker": {
+            "dx": "0.1 * sin((0.005 * AGE))+0.005",
+            "dy": "0.05",
+            "dz": "0.1 * sin((0.005 * AGE))+0.005",
+            "size": "max(0, SIZE-0.001)",
+            "roll": "ROLL*1.01",
+            "alpha": "1 * sin((0.0375 * AGE))"
+        },
+        "render_type": "additive_translucent",
+        "random_sprite": true,
+        "has_physics": false,
+        "lit": true,
+        "light_level": 15,
+        "liquid_affinity": "any"
+}

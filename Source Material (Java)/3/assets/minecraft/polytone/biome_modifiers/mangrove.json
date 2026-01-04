@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:mangrove_swamp"
+  ],
+  "sky_color": 4901060,
+  "fog_color": 8176802,
+  "water_color": 4093287
+}

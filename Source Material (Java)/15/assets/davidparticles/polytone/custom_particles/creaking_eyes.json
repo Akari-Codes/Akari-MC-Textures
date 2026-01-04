@@ -1,0 +1,21 @@
+{
+        "initializer":{
+          "lifetime": "40",
+          "alpha": "0",
+          "size": "0.75"
+        },
+        "ticker": {
+            "dx": "(rand()/75 + (DX * 0.5))*0.05",
+            "dy": "(rand()/75 + (DY * 0.5))*0.05",
+            "dz": "(rand()/75 + (DZ * 0.5))*0.05",
+            "alpha": "(max(0, tanh(((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 5)))^2)*(((CUSTOM <= (15*15))*((15 * 15) - CUSTOM) / ((15 * 15) - (1 * 1))*1))"
+        },
+        "liquid_affinity": "non_liquids",
+        "rotation_mode": "look_at_y",
+        "random_sprite": true,
+        "has_physics": false,
+        "render_type": "additive_translucent",
+        "exclusion_radius": 2,
+        "lit": true,
+        "light_level": 15
+}

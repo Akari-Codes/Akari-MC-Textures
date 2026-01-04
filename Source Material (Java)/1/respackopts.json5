@@ -1,0 +1,19 @@
+{
+  id: "ghp",
+  version: 9,
+  capabilities: ["FileFilter", "DirFilter"],
+  conf: {
+    Throwing: { 
+      type: "boolean",
+      default: true
+    },
+    Planting: {
+      type: "boolean",
+      default: true
+    },
+    IncludeSeeds: {
+      type: "boolean",
+      default: false
+    }
+  }
+}

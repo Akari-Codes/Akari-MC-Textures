@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:dripstone_caves"
+  ],
+  "sky_color": 14865083,
+  "fog_color": 12756366,
+  "water_color": 5148635
+}

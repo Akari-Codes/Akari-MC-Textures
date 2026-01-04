@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore"
+  ],
+  "sky_color": 8229364,
+  "fog_color": 10270183,
+  "water_color": 2326491
+}

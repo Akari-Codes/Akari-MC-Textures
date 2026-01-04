@@ -1,0 +1,12 @@
+{
+  "targets": [
+    "minecraft:the_end",
+    "minecraft:end_barrens",
+    "minecraft:end_highlands",
+    "minecraft:end_midlands",
+    "minecraft:small_end_islands"
+  ],
+  "sky_color": 14517210,
+  "fog_color": 14517210,
+  "water_color": 6641560
+}

@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:ice_spikes"
+  ],
+  "sky_color": 9081838,
+  "fog_color": 10267884,
+  "water_color": 2987234
+}

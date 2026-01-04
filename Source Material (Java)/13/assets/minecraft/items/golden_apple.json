@@ -1,0 +1,54 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/golden_apple"
+        },
+        "entries": [
+            {
+                "threshold": 1998270,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/jewelled_apple"
+                }
+            },
+            {
+                "threshold": 1998271,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/caviar"
+                }
+            },
+            {
+                "threshold": 1998272,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/churro"
+                }
+            },
+            {
+                "threshold": 1998273,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/golden_apple_pie"
+                }
+            },
+            {
+                "threshold": 1998274,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/regeneration_mushroom_stew"
+                }
+            },
+            {
+                "threshold": 1998275,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/uni_sushi"
+                }
+            }
+        ]
+    }
+}

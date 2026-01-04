@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:sparse_jungle"
+  ],
+  "sky_color": 6018770,
+  "fog_color": 11399120,
+  "water_color": 1935314
+}

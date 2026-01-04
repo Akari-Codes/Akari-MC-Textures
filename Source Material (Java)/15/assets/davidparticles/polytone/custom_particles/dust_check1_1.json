@@ -1,0 +1,24 @@
+{
+        "initializer":{
+          "lifetime": "14",
+          "alpha": "0.35",
+          "size": "0.35",
+          "red": "0.75",
+          "green": "0.75",
+          "blue": "0.75",
+          "custom": "gaussian()",
+          "hitbox_size": 0.25
+        },
+        "ticker": {
+          "dx": "0.025 * sin(atan2(PLAYER_Z - POS_Z, PLAYER_X - POS_X) + pi)",
+          "dz": "0.025 * cos(atan2(PLAYER_Z - POS_Z, PLAYER_X - POS_X) + pi)",
+          "dy": "0.025",
+          "roll": "(CUSTOM*1) * sin((0.025 * AGE))"
+        },
+        "liquid_affinity": "non_liquids",
+        "render_type": "translucent",
+        "has_physics": true,
+        "kill_on_contact": false,
+        "exclusion_radius": 1,
+        "kill_when_still": false
+}

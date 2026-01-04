@@ -1,0 +1,6 @@
+{
+  "targets": ["minecraft:snowy_taiga"],
+  "sky_color": 7258588,
+  "fog_color": 11330013,
+  "water_color": 2987234
+}

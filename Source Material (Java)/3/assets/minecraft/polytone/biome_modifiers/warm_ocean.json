@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:warm_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean"
+  ],
+  "sky_color": 8637118,
+  "fog_color": 7452623,
+  "water_color": 1872075
+}

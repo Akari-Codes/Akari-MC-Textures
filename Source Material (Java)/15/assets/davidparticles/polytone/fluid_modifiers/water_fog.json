@@ -1,0 +1,6 @@
+{
+   "targets": ["minecraft:water", "minecraft:flowing_water"],
+   "fog_colormap": "davidparticles:colormap_water_fog",
+   "fog_radius": "0.5",
+   "fog_fade": "1.25*7.5"
+}

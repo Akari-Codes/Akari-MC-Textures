@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:beach"
+  ],
+  "sky_color": 5159664,
+  "fog_color": 8637162,
+  "water_color": 1730221
+}

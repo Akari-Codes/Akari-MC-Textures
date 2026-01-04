@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/guster_banner_pattern"
+        },
+        "when": [
+          "ground",
+          "gui",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/guster_banner_pattern_hand"
+    },
+    "property": "minecraft:display_context"
+  }
+}

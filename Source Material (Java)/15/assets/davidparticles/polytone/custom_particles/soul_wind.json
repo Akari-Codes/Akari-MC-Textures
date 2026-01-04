@@ -1,0 +1,28 @@
+{
+        "initializer":{
+          "lifetime": "20",
+          "alpha": "0",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "roll": "gaussian()*50"
+        },
+        "ticker": {
+          "alpha": "0.1 * sin((0.15 * AGE))",
+            "dx": "0.1 * sin((0.005 * AGE))+0.45",
+            "dy": "0.15 * sin((0.1 * AGE))+0.05",
+            "dz": "0.1 * cos((0.005 * AGE))-0.08",
+            "size": "7.5 * sin((0.0375 * AGE))",
+            "roll": "max(0, ROLL*1.001)"
+        },
+        "liquid_affinity": "non_liquids",
+        "random_sprite": false,
+        "has_physics": false,
+        "rotation_mode": "movement_aligned",
+        "lit": true,
+        "light_level": 5,
+        "exclusion_radius": 10,
+        "render_type": "additive_translucent",
+        "offset": [-2.5, 0, 0]
+}

@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [54, 54],
+	"textures": {
+		"0": "item/gui/merchants/services/service_training_light_armor",
+		"particle": "item/gui/merchants/services/service_training_light_armor"
+	},
+	"elements": [
+		{
+			"from": [-6, 0, 0],
+			"to": [30, 0, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, -16]},
+			"faces": {
+				"north": {"uv": [0, 0, 9.48148, 0.2963], "texture": "#0"},
+				"east": {"uv": [0, 0, 9.77778, 0.2963], "texture": "#0"},
+				"south": {"uv": [0, 0, 9.48148, 0.2963], "texture": "#0"},
+				"west": {"uv": [0, 0, 9.77778, 0.2963], "texture": "#0"},
+				"up": {"uv": [6.75, 0, 13.4966, 4.5], "texture": "#0"},
+				"down": {"uv": [6.75, 0, 13.52584, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"gui": {
+			"rotation": [90, 0, 0],
+			"translation": [12, -7, 0],
+			"scale": [1.5, 1, 2]
+		}
+	}
+}

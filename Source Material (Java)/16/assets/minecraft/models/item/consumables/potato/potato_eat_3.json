@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/potato_hand",
+		"particle": "item/potato_hand"
+	},
+	"elements": [
+		{
+			"from": [5.5, 0, 4.5],
+			"to": [8.5, 4, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 0, 4.5]},
+			"faces": {
+				"north": {"uv": [12, 0, 15, 4], "texture": "#0"},
+				"east": {"uv": [9, 11, 6, 15], "texture": "#0"},
+				"south": {"uv": [5, 11, 8, 15], "texture": "#0"},
+				"west": {"uv": [7, 7, 10, 11], "texture": "#0"},
+				"up": {"uv": [5, 7, 2, 4], "texture": "#0"},
+				"down": {"uv": [10, 3, 5, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.75, 1.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.75, 1.5],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"firstperson_righthand": {
+			"rotation": [-82.09, -65.08, -72.05],
+			"translation": [1.5, 9, 0.75],
+			"scale": [0.7, 0.72, 0.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-82.09, -65.08, -72.05],
+			"translation": [1.5, 9, 0.75],
+			"scale": [0.7, 0.72, 0.6]
+		}
+	}
+}

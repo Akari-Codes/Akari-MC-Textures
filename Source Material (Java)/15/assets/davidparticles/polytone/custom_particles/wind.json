@@ -1,0 +1,36 @@
+{
+        "initializer":{
+          "lifetime": "20",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "dy": "(rand()*0.5)+5",
+          "dx": "2"
+        },
+        "ticker": {
+            "size": "1 * sin((0.15 * AGE))",
+            "dx": "(0.1 * sin((0.05 * AGE)) + 0.25) * abs(cos(0.05 * AGE)) + 0.25",
+            "dy": "0.05 * sin((0.001 * AGE))",
+            "dz": "0"
+        },
+        "liquid_affinity": "non_liquids",
+        "render_type": "additive_translucent",
+        "has_physics": true,
+        "random_sprite": false,
+        "kill_on_contact": true,
+        "kill_when_still": false,
+        "lit": true,
+        "light_level": 5,
+        "exclusion_radius": 3,
+        "rotation_mode": "look_at_x",
+        "sound_emitters": [
+    {
+      "sound": "davidsounds:sound.wind.ambient",
+      "chance": "0.35 + RAIN*0.25",
+      "pitch": "0.2+gaussian()*0.3 + RAIN*0.25",
+      "volume": "0.25 + RAIN*0.75"
+    }
+  ]
+}

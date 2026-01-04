@@ -1,0 +1,30 @@
+{
+  "render_type": "additive_translucent",
+  "rotation_mode": "movement_aligned",
+  "random_sprite": true,
+  "lit": true,
+  "light_level": 8,
+  "initializer": {
+    "lifetime": "120 + rand() * 40",
+    "size": "2.5 + rand() * 1 + 0.5",
+    "alpha": "0.0",
+    "red": "1 - 0.35*(DAY_TIME > 13000)*(DAY_TIME < 23500)",
+    "green": "1 - 0.05*(DAY_TIME > 13000)*(DAY_TIME <= 23999) - 0.15*(DAY_TIME >= 0)*(DAY_TIME <= 12999)",
+    "blue": "1 - 0.35*(DAY_TIME >= 0)*(DAY_TIME <= 12999)"
+  },
+  "ticker": {
+   "alpha": "max(0, tanh(sqrt(DISTANCE_SQUARED) / 5)) * max(0, min((20 * 20 - DISTANCE_SQUARED) / (20 * 20 - 1), 1)) * (0.225 + 0.05 * sin(0.2 * AGE)) * sin((pi / LIFETIME) * AGE)",
+   "dx": "cos((DAY_TIME / 12000 * pi))*0.001",
+    "dy": "sin((DAY_TIME / 12000 * pi))*0.0015",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 20"
+  },
+  "offset": [
+    0,
+    -0.5,
+    0
+  ],
+  "has_physics": false,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "exclusion_radius": 1
+}

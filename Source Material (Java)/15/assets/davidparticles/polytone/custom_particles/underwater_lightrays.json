@@ -1,0 +1,29 @@
+{
+  "render_type": "additive_translucent",
+  "rotation_mode": "movement_aligned",
+  "random_sprite": true,
+  "lit": true,
+  "light_level": 8,
+  "initializer": {
+    "lifetime": "120 + rand() * 40",
+    "size": "10 + rand() * 2",
+    "alpha": "0.0"
+  },
+  "ticker": {
+   "alpha": "min(max((sqrt(DISTANCE_SQUARED) - 0) / (10 - 0), 0), 1) * min(max((20 - sqrt(DISTANCE_SQUARED)) / (20 - 10), 0), 1) * (0.175 + 0.05 * sin(0.2 * AGE)) * sin((pi / LIFETIME) * AGE)",
+    "dx": "cos(pi * min(max(DAY_TIME / 12000, 0), 1)) * 0.001",
+    "dy": "sin(pi * min(max(DAY_TIME / 12000, 0), 1)) * 0.0015",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 20"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "has_physics": false,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "exclusion_radius": 0,
+"liquid_affinity": "liquids",
+"colormap": "minecraft:water_color"
+}

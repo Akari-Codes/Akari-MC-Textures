@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Developer version\nDo not distribute",
+    "pack_format": 69,
+    "supported_formats": [55, 69],
+    "min_format": 55,
+    "max_format": 69
+  }
+}

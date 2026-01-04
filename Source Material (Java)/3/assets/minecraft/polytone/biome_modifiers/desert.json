@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:desert"
+  ],
+  "sky_color": 8117708,
+  "fog_color": 15195041,
+  "water_color": 3841169
+}

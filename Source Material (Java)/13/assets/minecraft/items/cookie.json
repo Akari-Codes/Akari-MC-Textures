@@ -1,0 +1,103 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/cookie"
+        },
+        "entries": [
+            {
+                "threshold": 1998271,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/aegis_stroganoff"
+                }
+            },
+            {
+                "threshold": 1998272,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/apple_pie"
+                }
+            },
+            {
+                "threshold": 1998273,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/battle_burrito"
+                }
+            },
+            {
+                "threshold": 1998274,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/cooked_lionfish"
+                }
+            },
+            {
+                "threshold": 1998275,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/glazed_ribs"
+                }
+            },
+            {
+                "threshold": 1998276,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/lembas_bread"
+                }
+            },
+            {
+                "threshold": 1998277,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/luxurious_stew"
+                }
+            },
+            {
+                "threshold": 1998278,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/poached_lobster"
+                }
+            },
+            {
+                "threshold": 1998279,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/salmon_en_croute"
+                }
+            },
+            {
+                "threshold": 1998280,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/stuffed_hen"
+                }
+            },
+            {
+                "threshold": 1998281,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/tender_steak"
+                }
+            },
+            {
+                "threshold": 1998282,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/titanic_goulash"
+                }
+            },
+            {
+                "threshold": 1998283,
+                "model": {
+                    "type": "model",
+                    "model": "item/foods/wagyu_steak"
+                }
+            }
+        ]
+    }
+}

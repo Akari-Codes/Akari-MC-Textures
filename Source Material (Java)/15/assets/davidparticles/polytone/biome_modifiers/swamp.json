@@ -1,0 +1,6 @@
+{"targets": [
+		"minecraft:swamp"
+	],
+	"fog_radius": "1 - RAIN*0.75 + (RAIN > 0)*(PLAYER_Y < 47)*(RAIN*0.75) + (PLAYER_Y < 47)*0.2 - (PLAYER_Y <= -54)*0.75*(SKY_LIGHT == 0)",
+ 	"fog_fade": "(1.1 + (RENDER_DISTANCE/64)*0.5 + RAIN*0.25 - (RAIN > 0)*(PLAYER_Y < 47)*(RAIN*0.25) - (PLAYER_Y < 47)*0.1)*(7.5 + (RENDER_DISTANCE/64*2.5))"
+	}

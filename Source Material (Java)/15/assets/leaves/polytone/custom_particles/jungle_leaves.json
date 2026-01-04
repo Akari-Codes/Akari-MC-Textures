@@ -1,0 +1,35 @@
+{
+  "initializer": {
+    "lifetime": "180 + rand() * 80",
+    "size": "0.1 + rand() * 0.075",
+    "alpha": "0",
+    "custom": "rand()"
+  },
+  "ticker": {
+    "alpha": "1 * min(max(AGE / 12, 0), 1) * min(max((LIFETIME - AGE) / 12, 0), 1)",
+    "dx": "0.05 * sin( ( 0.05 + RAIN*0.05) * AGE + CUSTOM * 2) + 0.075 * min(max((RAIN - 0.5) / 0.5, 0), 1)",
+    "dy": "-0.035 + 0.01 * cos(0.08 * AGE + CUSTOM) - 0.05 * min(max((RAIN - 0.5) / 0.5, 0), 1)",
+    "dz": "0.05 * cos(0.05 * AGE + CUSTOM * 2)",
+    "roll": "(0.25 + RAIN * 0.75) * sin(0.1 * AGE + CUSTOM * 5)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 20"
+  },
+  "random_sprite": true,
+  "liquid_affinity": "non_liquids",
+  "render_type": "translucent",
+  "rotation_mode": "movement_aligned",
+  "exclusion_radius": 1,
+  "has_physics": true,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "colormap": "minecraft:foliage_color",
+  "particle_emitters": [
+    {
+      "particle": "leaves:jungle_leaves_water_emitter",
+      "chance": "1", 
+      "x": "0.0",
+      "y": "-0.05",
+      "z": "0.0"
+    }
+  ]
+}
+  

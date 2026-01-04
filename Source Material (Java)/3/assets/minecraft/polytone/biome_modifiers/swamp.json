@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:swamp"
+  ],
+  "sky_color": 8701845,
+  "fog_color": 10933181,
+  "water_color": 4808532
+}

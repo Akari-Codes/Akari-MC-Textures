@@ -1,0 +1,24 @@
+{
+  "initializer": {
+    "lifetime": "9 + rand() * 1",
+    "size": "0.055",
+    "alpha": "0.25",
+    "roll": "0",
+    "custom": "rand() * 6.28"
+  },
+  "ticker": {
+    "dx": "cos(CUSTOM) * 0.025",
+    "dy": "(0.1 - AGE * 0.02)*0.75",
+    "dz": "sin(CUSTOM) * 0.025",
+    "alpha": "ALPHA * min(1, max((LIFETIME - AGE) / (LIFETIME * 0.25), 0))",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 7.5"
+  },
+  "render_type": "additive_translucent",
+  "exclusion_radius": 0,
+  "has_physics": true,
+  "kill_on_contact": false,
+  "kill_when_still": false,
+  "offset": [0, 0, 0],
+  "rotation_mode": "movement_aligned",
+  "colormap": "minecraft:water_color"
+}

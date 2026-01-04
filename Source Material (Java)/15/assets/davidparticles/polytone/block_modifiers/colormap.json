@@ -1,0 +1,12 @@
+{
+   "targets": ["minecraft:short_grass",
+    "minecraft:tall_grass",
+     "minecraft:short_grass",
+      "minecraft:bush",
+       "minecraft:grass_block",
+      "minecraft:fern",
+   "minecraft:large_fern",
+   "minecraft:vine"
+],
+   "colormap": "davidparticles:colormap_grass"
+}

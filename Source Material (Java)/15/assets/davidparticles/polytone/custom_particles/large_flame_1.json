@@ -1,0 +1,21 @@
+{
+        "initializer":{
+          "lifetime": "40",
+          "alpha": "0.35",
+          "size": "0.65",
+          "red": "1",
+          "green": "1",
+          "blue": "1"
+        },
+        "ticker": {
+            "dy": "0.05",
+            "dx": "0",
+            "size": "max(0, SIZE-0.0075)",
+            "alpha": "max(0, ALPHA-0.025)"
+        },
+        "liquid_affinity": "non_liquids",
+        "has_physics": true,
+        "render_type": "additive_translucent",
+        "hitbox_size": 0.25,
+        "kill_on_contact": true
+}

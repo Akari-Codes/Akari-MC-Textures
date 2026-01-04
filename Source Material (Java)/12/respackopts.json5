@@ -1,0 +1,15 @@
+{
+  id: "storyModeClouds",
+  version: 13,
+  capabilities: ["FileFilter", "DirFilter", "Shaders"],
+  conf: {
+
+    customizability: ["off","on"],
+    cloudTallness: { 
+      type: "number",
+      default: 1.5,
+      min: 0.5,
+      max: 10
+    }
+  }
+}

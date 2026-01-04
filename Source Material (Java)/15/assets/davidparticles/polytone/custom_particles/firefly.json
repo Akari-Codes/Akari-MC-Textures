@@ -1,0 +1,35 @@
+{
+        "initializer":{
+          "lifetime": "120",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "custom": "rand()"
+        },
+        "ticker": {
+            "dx": "(CUSTOM*0.15) * sin((0.15 * AGE)) * abs(sin(0.1 * AGE)) * abs(sin(0.01 * AGE))",
+            "dy": "(CUSTOM*0.1) * cos((0.1 * AGE)) * abs(cos(0.25 * AGE)) * abs(cos(0.01 * AGE))",
+            "dz": "(CUSTOM*0.15) * cos((0.15 * AGE)) * abs(cos(0.1 * AGE)) * abs(cos(0.01 * AGE))",
+            "size": "0.5 * sin(((pi/LIFETIME) * AGE))"
+        },
+        "liquid_affinity": "non_liquids",
+        "lit": true,
+        "light_level": 15,
+        "render_type": "additive_translucent",
+        "random_sprite": true,
+        "has_physics": true,
+        "kill_on_contact": false,
+        "kill_when_still": false,
+        "offset": [0, 0, 0],
+        "exclusion_radius": 0,
+        "hitbox_size": 0.35,
+        "sound_emitters": [
+    {
+      "sound": "minecraft:block.firefly_bush.idle",
+      "chance": "0.001",
+      "pitch": "0.2+gaussian()*0.3"
+    }
+  ]
+}

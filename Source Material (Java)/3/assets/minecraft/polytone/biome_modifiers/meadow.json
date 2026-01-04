@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:meadow"
+  ],
+  "sky_color": 2208190,
+  "fog_color": 10346485,
+  "water_color": 2923711
+}

@@ -1,0 +1,64 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/dried_kelp"
+        },
+        "when": [
+          "gui",
+		      "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/consumables/kelp/dried_kelp_hand"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "remaining": true,
+        "scale": 1,
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/kelp/dried_kelp_eat_0"
+            },
+            "threshold": 11
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/kelp/dried_kelp_eat_1"
+            },
+            "threshold": 5
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/kelp/dried_kelp_eat_2"
+            },
+            "threshold": 3
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/consumables/kelp/dried_kelp_eat_2"
+        }
+      },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/consumables/kelp/dried_kelp_hand"
+        }
+    },
+    "property": "minecraft:display_context"
+  }
+}

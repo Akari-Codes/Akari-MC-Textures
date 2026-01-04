@@ -1,0 +1,12 @@
+Java:
+
+Pack Name - XavoraSMP Textures Java
+
+Pack Description - Java Edition Textures made for Xavora SMP MC Server
+
+
+Bedrock:
+
+Pack Name - XavoraSMP Textures Bedrock
+
+Pack Description - Bedrock Edition Textures made for Xavora SMP MC Server

@@ -1,0 +1,45 @@
+{
+    "pack": {
+        "description": "Adds 3D Trim Templates!\n§2■ By Fyoncle",
+        "pack_format": 15,
+        "min_format": 15,
+        "max_format": 99,
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 99
+        }
+    },
+    "immediatelyfast": {
+        "compatible_features": [
+            "font_atlas_resizing",
+            "hud_batching",
+            "experimental_screen_batching"
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay_34",
+                "formats": 34
+            },
+            {
+                "directory": "overlay_46",
+                "formats": [46,55],
+                "min_format": [46,0],
+                "max_format": [55,0]
+            },
+            {
+                "directory": "overlay_63",
+                "formats": [63,64],
+                "min_format": [63,0],
+                "max_format": [64,0]
+            },
+            {
+                "directory": "overlay_69",
+                "formats": [69,99],
+                "min_format": [69,0],
+                "max_format": [99,0]
+            }
+        ]
+    }
+}

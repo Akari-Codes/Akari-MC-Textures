@@ -1,0 +1,29 @@
+{
+        "initializer":{
+          "lifetime": "80",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "dx": "-(rand()*0.5)-40",
+          "dy": "(rand()*0.35)"
+        },
+        "ticker": {
+            "dx": "(CUSTOM*0.05 + (RAIN >= 0.5)*0.1) * sin(((0.05 + (RAIN >= 0.5)*0.1) * AGE)) + (RAIN >= 0.5)*0.1 + (RAIN > 0.75)*0.2",
+            "dy": " (0.01 + RAIN*0.04) * cos((0.1 * AGE)) - 0.05 + RAIN*0.02",
+            "dz": "(CUSTOM*0.05 + (RAIN >= 0.5)*0.1) * cos(((0.05 + (RAIN >= 0.5)*0.1) * AGE)) * ((RAIN < 0.75))",
+            "size": "0.15 * sin((0.0375 * AGE))",
+            "roll": "(0.25 + RAIN*0.75) * sin((0.1 * AGE))"
+        },
+        "liquid_affinity": "non_liquids",
+        "render_type": "translucent",
+        "random_sprite": true,
+        "has_physics": true,
+        "kill_on_contact": false,
+        "rotation_mode": "movement_aligned",
+        "kill_when_still": false,
+        "offset": [0, 0, 0],
+        "exclusion_radius": 0,
+  "colormap": "minecraft:foliage_color"
+}

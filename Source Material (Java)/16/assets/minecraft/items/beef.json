@@ -1,0 +1,71 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/beef"
+        },
+        "when": [
+          "gui",
+		      "ground",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/consumables/meat/raw_beef_hand"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "remaining": true,
+        "scale": 1,
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/meat/raw_beef_eat_0"
+            },
+            "threshold": 25
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/meat/raw_beef_eat_1"
+            },
+            "threshold": 15
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/meat/raw_beef_eat_2"
+            },
+            "threshold": 10
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/consumables/meat/raw_beef_eat_3"
+            },
+            "threshold": 2
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/consumables/meat/raw_beef_eat_3"
+        }
+      },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/consumables/meat/raw_beef_hand"
+        }
+    },
+    "property": "minecraft:display_context"
+  }
+}

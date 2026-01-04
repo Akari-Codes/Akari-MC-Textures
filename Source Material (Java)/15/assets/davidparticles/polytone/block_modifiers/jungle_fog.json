@@ -1,0 +1,28 @@
+{
+   "targets": ["minecraft:grass_block"],
+   "particle_emitters": [
+    {
+       "particle": "davidparticles:swamp_fog",
+       "chance": "0.45",
+       "x": "0", 
+       "z": "0",
+       "y": "4",
+       "dy": "0.0001 + rand()*0.001",
+       "biomes": ["minecraft:jungle",
+		              "minecraft:sparse_jungle",
+		              "minecraft:bamboo_jungle"],
+       "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:swamp_dust",
+       "chance": "0.015",
+       "x": "5 * cos((5 * TIME))", 
+       "z": "5 * cos((5 * TIME))",
+       "y": "5 * cos((5 * TIME))+rand()*2.5+2.5",
+       "biomes": ["minecraft:jungle",
+		              "minecraft:sparse_jungle",
+		              "minecraft:bamboo_jungle"],
+       "spawn_location": "lower_corner"
+     }
+     ]
+}

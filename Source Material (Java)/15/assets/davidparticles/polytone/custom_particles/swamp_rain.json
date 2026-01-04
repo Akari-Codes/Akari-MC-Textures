@@ -1,0 +1,33 @@
+{
+        "initializer":{
+          "lifetime": "20",
+          "alpha": "0.5 - RAIN*2",
+          "size": "0.35",
+          "red": "1",
+          "green": "1",
+          "blue": "1"
+        },
+        "ticker": {
+            "dx": "0",
+            "dy": "-1",
+            "dz": "0",
+            "size": "0.35",
+            "alpha": "0.5 - RAIN*2"
+        },
+        "liquid_affinity": "non_liquids",
+        "random_sprite": true,
+        "has_physics": true,
+        "kill_on_contact": false,
+        "render_type": "additive_translucent",
+        "rotation_mode": "look_at_y",
+         "particle_emitters": [
+     {
+       "particle": "davidparticles:rain",
+       "chance": "AGE == LIFETIME",
+       "x": "0", 
+       "z": "0",
+       "y": "0.05"
+     }
+  ],
+  "exclusion_radius": 1
+}

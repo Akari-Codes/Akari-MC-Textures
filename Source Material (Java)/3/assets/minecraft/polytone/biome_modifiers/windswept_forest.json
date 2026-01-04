@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:windswept_hills",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills"
+  ],
+  "sky_color": 6795471,
+  "fog_color": 10874354,
+  "water_color": 3042171
+}

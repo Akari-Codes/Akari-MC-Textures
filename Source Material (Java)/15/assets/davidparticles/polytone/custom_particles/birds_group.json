@@ -1,0 +1,25 @@
+{
+        "initializer":{
+          "lifetime": "80",
+          "alpha": "1",
+          "size": "0",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "dy": "(rand()*0.5)-10",
+          "custom": "gaussian()"
+        },
+        "ticker": {
+            "dx": "(CUSTOM*0.5) * sin((0.035 * AGE))",
+            "dy": "0.01 * sin((0.01 * AGE))",
+            "roll": "DX*-1.5",
+            "dz": "0.5",
+            "size": "(2 * sin((0.0375 * AGE)))"
+        },
+        "render_type": "opaque",
+        "liquid_affinity": "non_liquids",
+        "exclusion_radius": 1,
+        "offset": [0, 20, 0],
+        "rotation_mode": "look_up",
+        "has_physics": false
+}

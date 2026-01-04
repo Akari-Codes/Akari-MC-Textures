@@ -1,0 +1,21 @@
+{
+  "initializer":{
+    "lifetime": "120",
+    "size": "8",
+    "alpha": "0",
+    "dy": "(rand()*0.5)",
+    "roll": "0.001"
+  },
+      "ticker": {
+        "alpha": "0.05 * sin((0.025 * AGE))",
+        "roll": "max(0, ROLL+0.001)",
+        "dx": "(rand()/75 + (DX * 0.5))*0.1",
+        "dy": "-0.005",
+        "dz": "(rand()/75 + (DZ * 0.5))*0.1"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "any",
+  "exclusion_radius": 1,
+  "has_physics": false,
+  "offset": [0, 1, 0]
+}

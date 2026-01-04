@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:grove",
+    "minecraft:jagged_peaks"
+  ],
+  "sky_color": 7900641,
+  "fog_color": 10267884,
+  "water_color": 2987234
+}

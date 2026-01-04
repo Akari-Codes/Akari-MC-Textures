@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:old_growth_pine_taiga"
+  ],
+  "sky_color": 4437169,
+  "fog_color": 13366743,
+  "water_color": 3042171
+}

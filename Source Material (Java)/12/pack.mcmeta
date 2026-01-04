@@ -1,0 +1,36 @@
+{
+  "pack": {
+    "pack_format": 20,
+    "supported_formats": [20, 75],
+    "min_format": 20,
+    "max_format": 75,
+    "description": "§b§lSpices Up Clouds! \n§r§7 V1.3 | By Tixork and R3e"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1.21.6",
+        "formats": {
+          "min_inclusive": 56,
+          "max_inclusive": 75
+        },
+        "min_format": 56,
+        "max_format": 75
+      },
+      {
+        "directory": "1.21.5",
+        "formats": {
+          "min_inclusive": 20,
+          "max_inclusive": 55
+        },
+        "min_format": 20,
+        "max_format": 55
+      }
+    ]
+  },
+  "sodium": {
+    "ignored_shaders": [
+      "rendertype_clouds.vsh"
+    ]
+  }
+}

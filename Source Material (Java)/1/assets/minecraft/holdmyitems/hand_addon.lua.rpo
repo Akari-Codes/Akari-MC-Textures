@@ -1,0 +1,7 @@
+{
+  expansions: {
+    Throwing: "ghp.Throwing",
+    Planting: "ghp.Planting",
+    IncludeSeeds: "ghp.IncludeSeeds"
+  }
+}

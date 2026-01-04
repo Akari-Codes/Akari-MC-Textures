@@ -1,0 +1,16 @@
+{
+   "targets": ["minecraft:water"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:fog",
+       "chance": "0.01",
+       "x": "rand() + cos(TIME)+0.5", 
+       "z": "rand() + cos(TIME)+0.5",
+       "y": "-1",
+       "dx": "0",
+       "dy": "0.001 + rand()*0.001",
+       "dz": "0",
+       "spawn_location": "lower_corner"
+     }
+     ]
+}

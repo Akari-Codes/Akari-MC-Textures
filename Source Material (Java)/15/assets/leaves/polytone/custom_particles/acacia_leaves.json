@@ -1,0 +1,81 @@
+{
+        "initializer":{
+          "lifetime": "180 + rand() * 80",
+          "alpha": "0",
+          "size": "0.15",
+          "red": "1",
+          "green": "1",
+          "blue": "1",
+          "dx": "-(rand()*0.5)-40",
+          "dy": "(rand()*0.35)"
+        },
+        "ticker": {
+          "alpha": "1 * min(max(AGE / 12, 0), 1) * min(max((LIFETIME - AGE) / 12, 0), 1)",
+           "dx": "(CUSTOM*0.05 + (RAIN >= 0.5)*0.1) * sin(((0.05 + (RAIN >= 0.5)*0.1) * AGE)) + (RAIN > 0.75)*0.2 + (RAIN >= 0.5)*0.1",
+            "dy": " (0.01 + RAIN*0.04) * cos((0.1 * AGE)) - 0.05 + RAIN*0.02",
+             "dz": "(CUSTOM*0.05 + (RAIN >= 0.5)*0.1) * cos(((0.05 + (RAIN >= 0.5)*0.1) * AGE)) * ((RAIN < 0.75))",
+            "size": "max(0, SIZE-0.00075)",
+            "roll": "(0.25 + RAIN*0.75) * sin((0.1 * AGE))"
+        },
+        "liquid_affinity": "non_liquids",
+        "render_type": "translucent",
+        "random_sprite": true,
+        "has_physics": true,
+        "kill_on_contact": false,
+        "rotation_mode": "movement_aligned",
+        "kill_when_still": false,
+        "offset": [0, 0, 0],
+        "exclusion_radius": 0.5,
+        "particle_emitters": [
+     {
+       "particle": "leaves:acacia_leaves_emit",
+       "chance": "(RAIN > 0.1)*AGE == 1",
+       "x": "gaussian()*10 - 5", 
+       "z": "gaussian()*5",
+       "y": "gaussian()*2",
+       "state_predicate": {
+        "predicate_type": "block_match",
+        "block": "minecraft:air"
+      }
+     },
+     {
+       "particle": "leaves:acacia_leaves_emit",
+       "chance": "(RAIN > 0.1)*AGE == 1",
+       "x": "gaussian()*10 - 5", 
+       "z": "gaussian()*5",
+       "y": "gaussian()*2",
+       "state_predicate": {
+        "predicate_type": "block_match",
+        "block": "minecraft:air"
+      }
+     },
+     {
+       "particle": "leaves:acacia_leaves_emit",
+       "chance": "(RAIN > 0.5)*AGE == 1",
+       "x": "gaussian()*10 - 5", 
+       "z": "gaussian()*5",
+       "y": "gaussian()*2",
+       "state_predicate": {
+        "predicate_type": "block_match",
+        "block": "minecraft:air"
+      }
+     },
+     {
+       "particle": "davidparticles:wind",
+       "chance": "RAIN*0.035",
+       "x": "-5", 
+       "z": "(cos(AGE)+0.5)*rand()*10",
+       "y": "rand()+5"
+     },
+
+
+     {
+      "particle": "leaves:acacia_leaves_water_emitter",
+      "chance": "1", 
+      "x": "0.0",
+      "y": "-0.05",
+      "z": "0.0"
+    }
+  ],
+  "colormap": "minecraft:foliage_color"
+}

@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:river"
+  ],
+  "sky_color": 5154800,
+  "fog_color": 9092073,
+  "water_color": 1145822
+}

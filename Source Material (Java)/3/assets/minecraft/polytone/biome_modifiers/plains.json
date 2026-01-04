@@ -1,0 +1,6 @@
+{
+  "targets": ["minecraft:plains", "minecraft:sunflower_plains"],
+  "sky_color": 6926321,
+  "fog_color": 10469107,
+  "water_color": 5352679
+}

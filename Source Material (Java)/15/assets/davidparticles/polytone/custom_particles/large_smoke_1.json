@@ -1,0 +1,27 @@
+{
+        "initializer":{
+          "lifetime": "20",
+          "alpha": "1",
+          "size": "0.4",
+          "red": "0.15",
+          "green": "0.15",
+          "blue": "0.15",
+          "custom": "gaussian()"
+        },
+        "ticker": {
+            "dy": "0.075",
+            "dx": "0",
+            "dz": "0",
+            "red": "0.15 + (AGE/LIFETIME)*0.15",
+            "green": "0.15 + (AGE/LIFETIME)*0.15",
+            "blue": "0.15 + (AGE/LIFETIME)*0.15",
+            "roll": "(CUSTOM) * sin((0.0075 * AGE))",
+            "size": "max(0, SIZE-0.005)",
+            "alpha": "max(0, tanh(((abs(POS_X - PLAYER_X) + abs(POS_Z - PLAYER_Z)) / 5)))"
+        },
+        "liquid_affinity": "non_liquids",
+        "has_physics": true,
+        "render_type": "translucent",
+        "hitbox_size": 0.25,
+        "kill_on_contact": true
+}

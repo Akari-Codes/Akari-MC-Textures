@@ -1,0 +1,79 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "item/glow_squid_spawn_egg_hand"
+	},
+	"elements": [
+		{
+			"name": "egg",
+			"from": [5, 1, 5],
+			"to": [11, 9, 11],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 4], "texture": "#1"},
+				"east": {"uv": [3, 0, 6, 4], "texture": "#1"},
+				"south": {"uv": [0, 4, 3, 8], "texture": "#1"},
+				"west": {"uv": [6, 0, 3, 4], "texture": "#1"},
+				"up": {"uv": [9, 3, 6, 0], "texture": "#1"},
+				"down": {"uv": [9, 3, 6, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, -3, 6],
+			"to": [10, 1, 10],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -1, 6]},
+			"faces": {
+				"north": {"uv": [11.5, 0, 9, 2], "texture": "#1"},
+				"east": {"uv": [9, 0, 11.5, 2], "texture": "#1"},
+				"south": {"uv": [11.5, 0, 9, 2], "texture": "#1"},
+				"west": {"uv": [9, 0, 11.5, 2], "texture": "#1"},
+				"up": {"uv": [11.5, 0, 14, 2], "texture": "#1"},
+				"down": {"uv": [11.5, 0, 13.5, 2], "texture": "#1"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [10, 1, 10],
+			"to": [6, -3, 6],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -1, 6]},
+			"faces": {
+				"north": {"uv": [11.5, 0, 9, 2], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [9, 0, 11.5, 2], "rotation": 180, "texture": "#1"},
+				"south": {"uv": [11.5, 0, 9, 2], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [9, 0, 11.5, 2], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [11.5, 0, 13.5, 2], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [11.5, 0, 14, 2], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.95, 1.5],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0, 4.95, 1.5],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"firstperson_righthand": {
+			"rotation": [0.73, 114, -0.13],
+			"translation": [-3.5, 6.5, 5],
+			"scale": [0.31, 0.34, 0.31]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0.73, 114, -0.13],
+			"translation": [-3.5, 6.5, 5],
+			"scale": [0.31, 0.34, 0.31]
+		}
+	}
+}

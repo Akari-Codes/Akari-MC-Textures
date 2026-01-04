@@ -1,0 +1,62 @@
+{
+   "targets": ["minecraft:air"],
+   "particle_emitters": [
+    {
+       "particle": "davidparticles:snowflake",
+	   "x": "0", 
+       "z": "0",
+       "y": "0",
+       "chance": "((SKY_LIGHT == 15)*0.0005 + (RAIN > 0.25)*(RAIN*0.15)*(SKY_LIGHT == 15))",
+       "biomes": ["minecraft:snowy_plains",
+		              "minecraft:snowy_slopes",
+		              "minecraft:snowy_beach",
+	              	"minecraft:snowy_taiga",
+		              "minecraft:frozen_river",
+		              "minecraft:frozen_ocean",
+	              	"minecraft:frozen_peaks",
+	              	"minecraft:deep_frozen_ocean",
+	              	"minecraft:ice_spikes",
+		              "minecraft:jagged_peaks",
+		              "minecraft:grove"]
+     },
+     {
+       "particle": "davidparticles:drizzle",
+       "chance": "((SKY_LIGHT == 15)*((RAIN > 0.5)*0.025 + (SKY_LIGHT == 15)*(RAIN == 0.5)*0.01))*(POS_X < PLAYER_X)",
+       "x": "0", 
+       "z": "0",
+       "y": "1",
+       "dy": "0.001 + rand()*0.001",
+       "biomes": ["minecraft:snowy_plains",
+		              "minecraft:snowy_slopes",
+		              "minecraft:snowy_beach",
+	              	"minecraft:snowy_taiga",
+		              "minecraft:frozen_river",
+		              "minecraft:frozen_ocean",
+	              	"minecraft:frozen_peaks",
+	              	"minecraft:deep_frozen_ocean",
+	              	"minecraft:ice_spikes",
+		              "minecraft:jagged_peaks",
+		              "minecraft:grove"
+  ]
+     },
+	 {
+       "particle": "davidparticles:wind",
+       "chance": "(SKY_LIGHT == 15)*0.0001 + (SKY_LIGHT == 15)*RAIN*0.0001",
+       "x": "0", 
+       "z": "0",
+       "y": "12.5",
+	   "biomes": ["minecraft:snowy_plains",
+		              "minecraft:snowy_slopes",
+		              "minecraft:snowy_beach",
+	              	"minecraft:snowy_taiga",
+		              "minecraft:frozen_river",
+		              "minecraft:frozen_ocean",
+	              	"minecraft:frozen_peaks",
+	              	"minecraft:deep_frozen_ocean",
+	              	"minecraft:ice_spikes",
+		              "minecraft:jagged_peaks",
+		              "minecraft:grove"
+	 ]
+     }
+    ] 
+}

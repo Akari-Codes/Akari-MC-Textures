@@ -1,0 +1,15 @@
+
+Recommended with Entity Model Features & Entity Texture Features.
+
+Changes/Fixes:
+- fixed mule saddle position
+- fixed villager layers clipping when sleeping
+- fixed incorrect animation values after appearing on screen for many mobs
+- fixed incorrect animation states after appearing on screen for some mobs
+- tweaked happy ghast texture
+- improved hoglin and zoglin attack
+- tweaked zombie animations slightly
+- updated zombie horse texture
+- added support for undead horse armour
+- added support for parched
+- tweaked horse saddle textures

@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:flower_forest",
+    "minecraft:forest"
+  ],
+  "sky_color": 7917548,
+  "fog_color": 10346485,
+  "water_color": 1857179
+}

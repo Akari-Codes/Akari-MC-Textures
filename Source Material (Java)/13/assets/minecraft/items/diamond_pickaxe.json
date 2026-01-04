@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond_pickaxe"
+        },
+        "entries": [
+            {
+                "threshold": 1829130,
+                "model": {
+                    "type": "model",
+                    "model": "item/gui/button_custom_tool_requirement"
+                }
+            },
+            {
+                "threshold": 1981900,
+                "model": {
+                    "type": "model",
+                    "model": "item/tools/royal_diamond_pickaxe"
+                }
+            }
+        ]
+    }
+}

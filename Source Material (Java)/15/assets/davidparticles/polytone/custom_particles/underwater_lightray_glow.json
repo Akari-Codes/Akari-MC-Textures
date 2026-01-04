@@ -1,0 +1,18 @@
+{
+        "initializer":{
+          "lifetime": "240",
+          "alpha": "0",
+          "size": "6"
+        },
+        "ticker": {
+          "custom": "(PLAYER_X - POS_X)^2 + (PLAYER_Z - POS_Z)^2",
+          "alpha": "(CUSTOM <= (15*15))*((15 * 15) - CUSTOM) / ((15 * 15) - (1 * 1))*(0.05 + (0.015*sin((0.35 * AGE))))*sin((0.0125 * AGE))",
+          "roll": "0.015*sin((0.05 * TIME))"
+        },
+        "liquid_affinity": "non_liquids",
+        "has_physics": true,
+        "rotation_mode": "look_up",
+        "exclusion_radius": 1,
+        "render_type": "additive_translucent",
+        "offset": [0, -0.25, 0]
+}

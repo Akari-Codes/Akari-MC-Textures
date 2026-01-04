@@ -1,0 +1,117 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/netherite_sword"
+        },
+        "entries": [
+            {
+                "threshold": 1981820,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_dagger"
+                }
+            },
+            {
+                "threshold": 1981821,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_mace"
+                }
+            },
+            {
+                "threshold": 1981822,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_rapier"
+                }
+            },
+            {
+                "threshold": 1981825,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_warhammer"
+                }
+            },
+            {
+                "threshold": 1981826,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_spear"
+                }
+            },
+            {
+                "threshold": 1981827,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_greataxe"
+                }
+            },
+            {
+                "threshold": 1981840,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/netherite_knuckles"
+                }
+            },
+            {
+                "threshold": 1981920,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_dagger"
+                }
+            },
+            {
+                "threshold": 1981921,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_mace"
+                }
+            },
+            {
+                "threshold": 1981922,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_rapier"
+                }
+            },
+            {
+                "threshold": 1981925,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_warhammer"
+                }
+            },
+            {
+                "threshold": 1981926,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_spear"
+                }
+            },
+            {
+                "threshold": 1981927,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_greataxe"
+                }
+            },
+            {
+                "threshold": 1981940,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_knuckles"
+                }
+            },
+            {
+                "threshold": 1981941,
+                "model": {
+                    "type": "model",
+                    "model": "item/weapons/royal_netherite_sword"
+                }
+            }
+        ]
+    }
+}

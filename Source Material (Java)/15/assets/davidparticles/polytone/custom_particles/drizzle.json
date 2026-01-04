@@ -1,0 +1,23 @@
+{
+  "initializer":{
+    "lifetime": "40",
+    "size": "5",
+    "alpha": "0",
+    "hitbox_size": 2.5,
+    "roll": "0.001"
+  },
+      "ticker": {
+        "alpha": "((0.25) * sin( (pi/LIFETIME) * AGE))*max(0, min(1, (10 - sqrt(DISTANCE_SQUARED)) / 2))",
+        "roll": "max(0, ROLL+0.001)",
+        "dx": "RAIN*0.25",
+        "dy": "0.1 * sin((0.15 * AGE))",
+        "dz": "0.15 * sin((0.2 * AGE))",
+        "remove_condition": "sqrt(DISTANCE_SQUARED) > 10"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "any",
+  "exclusion_radius": 3,
+  "has_physics": true,
+  "kill_on_contact": true,
+  "offset": [0, 0, 0]
+}

@@ -1,0 +1,39 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/leather_chestplate",
+            "tints": [
+                {
+                    "type": "minecraft:dye",
+                    "default": -6265536
+                }
+            ]
+        },
+        "entries": [
+            {
+                "threshold": 3510001,
+                "model": {
+                    "type": "model",
+                    "model": "item/gui/skillicon_lightarmor"
+                }
+            },
+            {
+                "threshold": 9918291,
+                "model": {
+                    "type": "model",
+                    "model": "item/armor/assassin_chestplate"
+                }
+            },
+            {
+                "threshold": 9918294,
+                "model": {
+                    "type": "model",
+                    "model": "item/armor/turtle_chestplate"
+                }
+            }
+        ]
+    }
+}

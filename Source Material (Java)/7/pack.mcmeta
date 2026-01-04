@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "description": "Made by j0intekk and BennyMcCarthy",
+    "pack_format": 48,
+    "supported_formats": [
+      48,
+      57,
+      61,
+      71,
+      80,
+      81
+    ]
+  }
+}

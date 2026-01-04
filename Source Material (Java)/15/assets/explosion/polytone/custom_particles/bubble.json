@@ -1,0 +1,35 @@
+{
+        "initializer":{
+          "lifetime": "80",
+          "alpha": "1",
+          "size": "0",
+          "custom": "gaussian()"
+        },
+        "ticker": {
+            "dx": "cos(CUSTOM * pi)*(0.12 + CUSTOM * 0.08) * (min(1, max(0, 1 - max(0, AGE - 12) / (8 + CUSTOM * 12)))) + (CUSTOM*0.075) * cos((0.1 * AGE)) - ((PLAYER_X - POS_X) / (DISTANCE_SQUARED + 1)) * min(max(2 - sqrt(DISTANCE_SQUARED), 0), 1) * 0.25",
+            "dy": "0.035",
+            "dz": "sin(CUSTOM * pi)*(0.12 + CUSTOM * 0.08) * (min(1, max(0, 1 - max(0, AGE - 12) / (8 + CUSTOM * 12)))) + (CUSTOM*0.075) * sin((0.1 * AGE)) - ((PLAYER_Z - POS_Z) / (DISTANCE_SQUARED + 1)) * min(max(2 - sqrt(DISTANCE_SQUARED), 0), 1) * 0.25",
+            "size": "(0.1) * min(max(AGE / 2, 0), 1)",
+            "roll": "(CUSTOM*0.05) * cos((0.005 * AGE))",
+            "remove_condition": "sqrt(DISTANCE_SQUARED) > 15"
+        },
+        "random_sprite": false,
+        "rotation_mode": "look_at_xyz",
+        "liquid_affinity": "liquids",
+        "render_type": "opaque",
+        "has_physics": false,
+        "lit": true,
+        "light_level": 2,
+        "exclusion_radius": 1,
+        "kill_on_contact": false,
+        "kill_when_still": false,
+        "offset": [0, 0, 0],
+        "sound_emitters": [
+    {
+      "sound": "minecraft:block.bubble_column.upwards_ambient",
+      "chance": "AGE == 1",
+      "pitch": "0.1+gaussian()*0.3",
+      "volume": "0.25"
+    }
+  ]
+}

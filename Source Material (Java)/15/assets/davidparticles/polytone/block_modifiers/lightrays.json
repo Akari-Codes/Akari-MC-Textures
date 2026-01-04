@@ -1,0 +1,386 @@
+{
+   "targets": ["minecraft:oak_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:spruce_leaves", "minecraft:azalea_leaves", "minecraft:dark_oak_leaves", "minecraft:pale_oak_leaves", "minecraft:mangrove_leaves", "minecraft:cherry_leaves", "minecraft:acacia_leaves"],
+   "particle_emitters": [
+     {
+       "particle": "davidparticles:lightray_emitter",
+       "chance": "((DAY_TIME > 13500) * (DAY_TIME < 23500))*SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800) - RAIN*2",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:pale_oak_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+       "biomes": ["minecraft:pale_garden"],
+       "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "((DAY_TIME > 13500) * (DAY_TIME < 23500))*SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME <= 24000)*(DAY_TIME > 23800) - RAIN*2",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:pale_oak_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:oak_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:oak_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:birch_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:birch_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:jungle_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:jungle_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:spruce_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:spruce_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:azalea_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:azalea_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:dark_oak_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:dark_oak_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:mangrove_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:mangrove_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:cherry_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:cherry_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:acacia_leaves",
+           "Properties": {
+           "distance": "3",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     },
+     {
+       "particle": "davidparticles:lightray_emitter_emitter",
+       "chance": "(SKY_LIGHT - (DAY_TIME == 0) - (DAY_TIME > 23800))*(RAIN < 0.5)",
+       "x": "0", 
+       "z": "0",
+       "y": "-3",
+       "state_predicate": {
+       "predicate_type": "blockstate_match",
+       "block_state": 
+         {
+           "Name": "minecraft:acacia_leaves",
+           "Properties": {
+           "distance": "4",
+           "persistent": "false"
+           }
+         }
+     },
+     "spawn_location": "lower_corner"
+     }
+     ]
+}

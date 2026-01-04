@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:select",
+      "base": "minecraft:item/shield",
+      "model": {
+        "type": "minecraft:shield"
+      },
+      "property": "component",
+      "component": "minecraft:damage",
+      "cases": [
+				{
+          "when": 0,
+					"model": {
+						"type": "model",
+						"base": "item/shield_base",
+						"model": "item/custom_shield"
+					}
+				}
+			],
+      "fallback": {
+				"type": "model",
+				"base": "item/shield_base",
+				"model": "item/custom_shield"
+			}
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "base": "minecraft:item/shield_blocking",
+      "model": {
+        "type": "minecraft:shield"
+      },
+      "property": "component",
+      "component": "minecraft:damage",
+      "cases": [
+				{
+          "when": 0,
+					"model": {
+						"type": "model",
+						"base": "item/shield_base",
+						"model": "item/custom_shield_blocking"
+					}
+				}
+			],
+      "fallback": {
+				"type": "model",
+				"base": "item/shield_base",
+				"model": "item/custom_shield_blocking"
+			}
+    },
+    "property": "minecraft:using_item"
+  }
+}

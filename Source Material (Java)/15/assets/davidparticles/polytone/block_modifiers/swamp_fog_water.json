@@ -1,0 +1,30 @@
+{
+   "targets": ["minecraft:water"],
+   "particle_emitters": [
+    {
+       "particle": "davidparticles:swamp_fog",
+       "chance": "0.15 - RAIN*2",
+       "x": "0", 
+       "z": "0",
+       "y": "4",
+       "dy": "0.001 + rand()*0.001",
+       "biomes": ["minecraft:swamp", "minecraft:mangrove_swamp"]
+     },
+     {
+       "particle": "davidparticles:swamp_rain",
+       "chance": "0.005 - RAIN*2",
+       "x": "rand()*0.5", 
+       "z": "rand()*0.5",
+       "y": "20",
+       "biomes": ["minecraft:swamp", "minecraft:mangrove_swamp"]
+     },
+     {
+       "particle": "davidparticles:swamp_dust",
+       "chance": "0.015",
+       "x": "5 * cos((5 * TIME))", 
+       "z": "5 * cos((5 * TIME))",
+       "y": "5 * cos((5 * TIME))+rand()*2.5+1",
+       "biomes": ["minecraft:swamp", "minecraft:mangrove_swamp"]
+     }
+     ]
+}

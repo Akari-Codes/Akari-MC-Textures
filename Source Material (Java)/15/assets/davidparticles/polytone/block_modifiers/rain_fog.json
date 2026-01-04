@@ -1,0 +1,29 @@
+{
+   "targets": ["minecraft:grass_block"],
+   "particle_emitters": [
+    {
+       "particle": "davidparticles:rain_fog",
+       "chance": "RAIN*0.15",
+       "x": "0", 
+       "z": "0",
+       "y": "4",
+       "dy": "0.001 + rand()*0.001",
+       "biomes": ["minecraft:windswept_hills",
+                  "minecraft:windswept_forest",
+                  "minecraft:windswept_gravelly_hills",
+                  "minecraft:stony_shore",
+                  "minecraft:river",
+                  "minecraft:beach",
+                  "minecraft:cold_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:dark_forest",
+                  "minecraft:ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:warm_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:deep_lukewarm_ocean"
+  ],
+  "spawn_location": "lower_corner"
+     }    
+     ]
+}

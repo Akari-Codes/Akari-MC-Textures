@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:lush_caves"
+  ],
+  "sky_color": 7071672,
+  "fog_color": 1305497,
+  "water_color": 6347218
+}

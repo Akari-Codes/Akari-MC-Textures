@@ -1,0 +1,6 @@
+Vanilla Tweaks Resource Pack
+Version: 1.21
+Packs:
+	NoPanoramaOverlay
+	NoJavaEditionTitle
+	ClassicPanorama

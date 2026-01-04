@@ -1,0 +1,9 @@
+{
+    "targets": ["minecraft:overworld"
+],
+    "no_weather_fog_darken": true,
+    "no_weather_sky_darken": true,
+    "fog_colormap": "davidparticles:sunset_fog",
+    "sky_colormap": "davidparticles:sunset_sky",
+    "sunset_colormap": "davidparticles:colormap_sunset"
+}

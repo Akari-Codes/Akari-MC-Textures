@@ -1,0 +1,23 @@
+{
+  "initializer":{
+    "lifetime": "120",
+    "size": "10",
+    "alpha": "0"
+  },
+      "ticker": {
+        "alpha": "0.025 * sin((0.025 * AGE))",
+        "roll": "max(0, ROLL+0.001)",
+        "dx": "0",
+        "dy": "0.005",
+        "dz": "0"
+        },
+  "render_type": "additive_translucent",
+  "liquid_affinity": "any",
+  "random_sprite": true,
+  "exclusion_radius": 10,
+  "has_physics": false,
+  "offset": [0, 10, 0],
+  "lit": true,
+  "light_level": 5,
+  "rotation_mode": "look_at_y"
+}

@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "minecraft:wooded_badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+  ],
+  "sky_color": 7391667,
+  "fog_color": 15062177,
+  "water_color": 3049886
+}

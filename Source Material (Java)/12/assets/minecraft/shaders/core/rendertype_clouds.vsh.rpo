@@ -1,0 +1,6 @@
+{
+    condition: "storyModeClouds.customizability.off",
+    fallbacks: [
+	"assets/minecraft/shaders/core/respackopts.vsh"
+    ]
+}
